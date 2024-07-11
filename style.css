@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(221, 2, 2, 0.1);
+}
+.card-body{
+    background-color:rgb(255, 255, 255);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+.btn{
+    margin-top: 10px;
+    background-color:white;
+    color: rgb(189, 21, 21);
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(189, 21, 21);
+}
+.btn:hover{
+    margin-top: 10px;
+    background-color:rgb(189, 21, 21);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.success {
+    display: none;
+    color: green;
+}
+.table{
+    margin-top: 50px;
+}
+.btnDelete{
+    color:red;
+    background-color:white;
+    border:none;
+    font-size: 20px;
+}
+.btnUpdate{
+    color:green;
+    background-color:white;
+    border:none;
+    font-size: 20px;
+    margin-left: 20px;
+
+
+}
