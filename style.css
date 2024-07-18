@@ -1,48 +1,80 @@
-body{
-    background-color:rgb(221, 2, 2, 0.1);
-}
-.card-body{
-    background-color:rgb(255, 255, 255);
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
 }
 
-.error-message {
-    color: red;
-    font-size: 12px;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
-.btn{
-    margin-top: 10px;
-    background-color:white;
-    color: rgb(189, 21, 21);
-    font-weight: bold;
-    font-size: 20px;
-    border: 2px solid rgb(189, 21, 21);
+
+form {
+    margin-bottom: 20px;
 }
-.btn:hover{
-    margin-top: 10px;
-    background-color:rgb(189, 21, 21);
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
-.success {
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
     display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+#message.error {
+    border-color: red;
+    color: red;
+}
+
+#message.success {
+    border-color: green;
     color: green;
 }
-.table{
-    margin-top: 50px;
-}
-.btnDelete{
-    color:red;
-    background-color:white;
-    border:none;
-    font-size: 20px;
-}
-.btnUpdate{
-    color:green;
-    background-color:white;
-    border:none;
-    font-size: 20px;
-    margin-left: 20px;
 
+#ideasContainer {
+    margin-top: 20px;
+}
 
+.idea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.idea h3 {
+    margin-top: 0;
+}
+
+.idea .actions {
+    margin-top: 10px;
+}
+
+.idea .actions button {
+    margin-right: 10px;
 }
